@@ -4,7 +4,7 @@
     <item type="bool" name="debug_output">false</item>
 
     <!-- Property to read for ROM version -->
-    <string name="property_version">ro.modversion</string>
+    <string name="property_version">ro.pa.version</string>
 
     <!-- Property to read for device identifier -->
     <string name="property_device">ro.pa.device</string>
@@ -15,11 +15,11 @@
     <!-- Path deltas are stored, relative to sdcard root -->
     <string name="path_base">OpenDelta</string>
 
-    <!-- URL base to find .delta files, %s is expanded to property_device value. Path is suffixed by (expanded) filename_base -->
-    <string name="url_base_delta">http://goo.im/devs/tilaksidduram/delta/</string>
+    <!-- URL base to find .update and .sign files, %s is expanded to property_device value. Path is suffixed by (expanded) filename_base -->
+    <string name="url_base_delta">https://delta.omnirom.org/nightlies/%s/</string>
 
     <!-- URL base to find .update and .sign files, %s is expanded to property_device value. Path is suffixed by (expanded) filename_base -->
-    <string name="url_base_update">http://goo.im/devs/tilaksidduram/delta/</string>
+    <string name="url_base_update">http://delta.omnirom.org/nightlies/%s/</string>
 
     <!-- URL base to find the full zip files, %s is expanded to property_device value. Path is suffixed by (expanded) filename_base -->
     <string name="url_base_full">http://goo.im/devs/tilaksidduram/PA/Kitkat/</string>

@@ -25,11 +25,11 @@ BIN_XDELTA=$HOME/delta/xdelta3
 BIN_ZIPADJUST=$HOME/delta/zipadjust
 
 FILE_MATCH=pa_n7100-*.zip
-PATH_CURRENT=$HOME/out/target/product/n7100
-PATH_LAST=$HOME/delta/last/n7100
+PATH_CURRENT=$HOME/out/target/product/$DEVICE
+PATH_LAST=$HOME/delta/last/$DEVICE
 
-KEY_X509=$HOME/build/target/product/security/platform.x509.pem
-KEY_PK8=$HOME/build/target/product/security/platform.pk8
+KEY_X509=$HOME/.keys/platform.x509.pem
+KEY_PK8=$HOME/.keys/platform.pk8
 
 # ------ PROCESS ------
 
