@@ -16,13 +16,13 @@
     <string name="path_base">OpenDelta</string>
 
     <!-- URL base to find .delta files, %s is expanded to property_device value. Path is suffixed by (expanded) filename_base -->
-    <string name="url_base_delta">http://goo.im/devs/tilaksidduram/delta/</string>
+    <string name="url_base_delta">http://www.tilaksidduram.com/n7100/delta/</string>
 
     <!-- URL base to find .update and .sign files, %s is expanded to property_device value. Path is suffixed by (expanded) filename_base -->
-    <string name="url_base_update">http://goo.im/devs/tilaksidduram/delta/</string>
+    <string name="url_base_update">http://www.tilaksidduram.com/n7100/delta/</string>
 
     <!-- URL base to find the full zip files, %s is expanded to property_device value. Path is suffixed by (expanded) filename_base -->
-    <string name="url_base_full">http://goo.im/devs/tilaksidduram/PA/Kitkat/</string>
+    <string name="url_base_full">http://www.tilaksidduram.com/n7100/rom/</string>
 
     <!-- Applies whole-file signature delta. Adds one extra delta step. Required if recovery verifies signatures -->
     <item type="bool" name="apply_signature">false</item>
