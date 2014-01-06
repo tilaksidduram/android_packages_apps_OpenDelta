@@ -21,13 +21,10 @@
 
 package eu.chainfire.opendelta;
 
-import android.content.BroadcastReceiver;
-import android.content.Context;
-import android.content.Intent;
-
-public class BootCompleteReceiver extends BroadcastReceiver {
+public class Application extends android.app.Application {
     @Override
-    public void onReceive(Context context, Intent intent) {
-        UpdateService.start(context);
+    public void onCreate() {
+        super.onCreate();
+        Logger.setDebugLogging(getResources().getBoolean(R.bool.debug_output));
     }
 }
