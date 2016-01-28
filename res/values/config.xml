@@ -26,7 +26,7 @@
 	<string name="url_base_full">http://downloads.codefi.re/houstonn/tilak/mm/%s/</string>
 
 	<!-- URL base to fetch all builds -->
-	<string name="url_base_json">https://dl.omnirom.org/json.php"</string>
+	<string name="url_base_json">http://downloads.codefi.re/houstonn/tilak/mm/json.php"</string>
 
 	<!-- Applies whole-file signature delta. Adds one extra delta step. Required if recovery verifies signatures -->
 	<item name="apply_signature" type="bool">false</item>
