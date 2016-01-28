@@ -65,6 +65,7 @@ public class Config {
     private final boolean secure_mode_default;
     private final boolean keep_screen_on;
     private final String filename_base_prefix;
+    private final String url_base_json;
     private final String official_version_tag;
     private final String android_version;
 
@@ -117,6 +118,7 @@ public class Config {
         inject_signature_keys = res.getString(R.string.inject_signature_keys);
         secure_mode_enable = res.getBoolean(R.bool.secure_mode_enable);
         secure_mode_default = res.getBoolean(R.bool.secure_mode_default);
+        url_base_json = res.getString(R.string.url_base_json);
         official_version_tag = res.getString(R.string.official_version_tag);
         android_version = getProperty(context,
                 res.getString(R.string.android_version), "");
@@ -147,6 +149,7 @@ public class Config {
         Logger.d("url_base_delta: %s", url_base_delta);
         Logger.d("url_base_update: %s", url_base_update);
         Logger.d("url_base_full: %s", url_base_full);
+        Logger.d("url_base_json: %s", url_base_json);
         Logger.d("apply_signature: %d", apply_signature ? 1 : 0);
         Logger.d("inject_signature_enable: %d", inject_signature_enable ? 1 : 0);
         Logger.d("inject_signature_keys: %s", inject_signature_keys);
@@ -272,6 +275,10 @@ public class Config {
 
     public String getFileBaseNamePrefix() {
         return filename_base_prefix;
+    }
+
+    public String getUrlBaseJson() {
+        return url_base_json;
     }
 
     public String getOfficialVersionTag() {
