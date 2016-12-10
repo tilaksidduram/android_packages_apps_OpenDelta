@@ -22,7 +22,7 @@
 	<application
 		android:name="eu.chainfire.opendelta.Application"
 		android:allowBackup="false"
-		android:icon="@mipmap/ic_launcher_settings"
+                android:icon="@drawable/opendelta_launcher"
 		android:label="@string/app_name" >
 
         <uses-library android:name="org.apache.http.legacy" android:required="false" />
@@ -38,7 +38,7 @@
 				Assuming that is not disabled. There's a config option for that.
 				APK needs to be in priv-app for this to work!
 				-->
-				<action android:name="android.settings.SYSTEM_UPDATE_SETTINGS" />
+				<!--<action android:name="android.settings.SYSTEM_UPDATE_SETTINGS" />-->
 				<!-- Show in launcher for debugging purposed -->
 				<!--
 				<action android:name="android.intent.action.MAIN" />

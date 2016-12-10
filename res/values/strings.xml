@@ -2,7 +2,7 @@
 <resources>
 
 	<string name="app_name">OpenDelta</string>
-	<string name="title">System updates</string>
+	<string name="title">Delta updates</string>
 	<string name="action_networks">Networks</string>
 	<string name="title_networks">Auto download networks</string>
 	<string name="network_2g">2G</string>
