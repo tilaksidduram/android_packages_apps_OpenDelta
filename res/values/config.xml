@@ -11,22 +11,22 @@
 	<string name="property_device">ro.cm.device</string>
 
 	<!-- %s is expanded to property_version value. .zip, .delta, .update, .sign extensions added when needed -->
-	<string name="filename_base">cm-%s</string>
+	<string name="filename_base">lineage-%s</string>
 
 	<!-- Path deltas are stored, relative to sdcard root -->
 	<string name="path_base">OpenDelta</string>
 
 	<!-- URL base to find .delta files, %s is expanded to property_device value. Path is suffixed by (expanded) filename_base -->
-	<string name="url_base_delta">http://tilaksid.000webhostapp.com/nougat/delta/%s/</string>
+	<string name="url_base_delta">http://tilak.sergix44.ovh/delta/%s/</string>
 
 	<!-- URL base to find .update and .sign files, %s is expanded to property_device value. Path is suffixed by (expanded) filename_base -->
-	<string name="url_base_update">http://tilaksid.000webhostapp.com/nougat/delta/%s/</string>
+	<string name="url_base_update">http://tilak.sergix44.ovh/delta/%s/</string>
 
 	<!-- URL base to find the full zip files, %s is expanded to property_device value. Path is suffixed by (expanded) filename_base -->
-	<string name="url_base_full">http://tilaksid.000webhostapp.com/nougat/%s/</string>
+	<string name="url_base_full">http://tilak.sergix44.ovh/%s/</string>
 
 	<!-- URL base to fetch all builds -->
-	<string name="url_base_json">http://tilaksid.000webhostapp.com/nougat/json.php"</string>
+	<string name="url_base_json">http://tilak.sergix44.ovh/json.php"</string>
 
 	<!-- Applies whole-file signature delta. Adds one extra delta step. Required if recovery verifies signatures -->
 	<item name="apply_signature" type="bool">false</item>
